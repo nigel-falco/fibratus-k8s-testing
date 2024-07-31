@@ -3,9 +3,14 @@ Designing a cloud-native response engine for Windows workloads in Kubernetes: <b
 https://github.com/rabbitstack/fibratus
 
 ## The location of the local rules file:
-
+Seems to be some admin permission issues writing to this default directory
 ```
 cd "C:\\Program Files\Fibratus\Rules"
+```
+
+Created a new file directory for test rules in Fibratus:
+```
+cd "C:\\Users\nigel\Fibratus_Rules"
 ```
 
 ## My first test rule in Fibratus
