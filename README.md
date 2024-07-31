@@ -71,3 +71,9 @@ wget https://raw.githubusercontent.com/nigel-falco/fibratus-k8s-testing/main/fil
             emit . "File deletion detected: helloworld.text" ""
         }}
 ```
+
+
+### Current Issue in Windows Event Logs
+
+![fibratus-eventlogs](https://github.com/user-attachments/assets/6543ab52-340e-47fa-9db9-b58df1ecdadf)
+
