@@ -12,7 +12,7 @@ cd "C:\\Program Files\Fibratus\Rules"
 
 I can simply download the rule from Github remotely using ```wget``` or ```curl```
 ```
-wget 
+wget https://raw.githubusercontent.com/nigel-falco/fibratus-k8s-testing/main/file_deletion.yml
 ```
 
 ```
