@@ -13,6 +13,30 @@ Created a new file directory for test rules in Fibratus:
 cd "C:\\Users\nigel\Fibratus_Rules"
 ```
 
+Point the ```config``` file to take rules from an external URL - my ```Github repo```:
+```
+cd "C:\\Program Files\Fibratus\Config"
+```
+
+```
+# =============================== Filters ===============================================
+
+# Contains the definition of detection rules. Rules are contained within rule group files.
+# Rule definitions can reside in the local file system or also can be served over HTTP/S.
+# For local file system rule paths, it is possible to use the glob expression to load the
+# rules from different directory locations.
+filters:
+  rules:
+    #from-paths:
+    #  - C:\Program Files\Fibratus\Rules\*.yml
+    from-urls:
+      - https://raw.githubusercontent.com/nigel-falco/fibratus-k8s-testing/main/file_deletion.yml
+  #macros:
+    #from-paths:
+      #- C:\Program Files\Fibratus\Rules\Macros\*.yml
+```
+
+
 ## My first test rule in Fibratus
 
 I can simply download the rule from Github remotely using ```wget``` or ```curl```
