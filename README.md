@@ -1,4 +1,4 @@
-# fibratus-k8s-testing
+# Fibratus Kubernetes Testing
 Designing a cloud-native response engine for Windows workloads in Kubernetes: <br/>
 https://github.com/rabbitstack/fibratus
 
